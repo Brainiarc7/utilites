@@ -64,7 +64,6 @@ fi
 
 #load the phyml
 module purge
-module load openmpi
 module load phyml/3.2.0
 
 #run phyml 
