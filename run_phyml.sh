@@ -3,7 +3,7 @@
 #SBATCH -o output_%j.txt
 #SBATCH -e errors_%j.txt
 #SBATCH -n 20
-#SBATCH --mem-per-cpu=1000
+#SBATCH --mem-per-cpu=5000
 #SBATCH -p longrun
 #SBATCH --mail-type=ALL
 #SBATCH --mail-user=ggithinji@kemri-wellcome.org
